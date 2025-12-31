@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Payment Successful</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      background: radial-gradient(ellipse at top, #0f172a, #020617);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.06);
+      backdrop-filter: blur(20px);
+      border-radius: 20px;
+      padding: 48px 40px;
+      max-width: 420px;
+      width: 90%;
+      text-align: center;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+    }
+
+    .icon {
+      width: 64px;
+      height: 64px;
+      margin: 0 auto 24px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #22c55e, #4ade80);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 32px;
+    }
+
+    h1 {
+      font-size: 26px;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+
+    p {
+      font-size: 15px;
+      color: #cbd5f5;
+      line-height: 1.6;
+      margin-bottom: 32px;
+    }
+
+    .btn {
+      display: inline-block;
+      width: 100%;
+      padding: 14px 0;
+      border-radius: 12px;
+      background: linear-gradient(135deg, #6366f1, #8b5cf6);
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 16px;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+      box-shadow: 0 10px 30px rgba(99,102,241,0.4);
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 40px rgba(99,102,241,0.55);
+    }
+
+    .note {
+      margin-top: 24px;
+      font-size: 13px;
+      color: #94a3b8;
+    }
+
+    .brand {
+      margin-top: 32px;
+      font-size: 13px;
+      color: #64748b;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <div class="icon">✓</div>
+
+    <h1>Payment Successful</h1>
+
+    <p>
+      Thank you for your purchase.<br/>
+      Click below to get your personal, editable copy of the habit tracker.
+    </p>
+
+    <!-- 🔗 REPLACE THIS LINK -->
+    <a 
+      href="https://docs.google.com/spreadsheets/d/1jSPg2VyjghJEGFrvZ9nvKBKPue9qQhk-_WsCD6E502c/copy" 
+      target="_blank" 
+      class="btn"
+    >
+      Get Your Habit Tracker
+    </a>
+
+    <div class="note">
+      You’ll be asked to make a copy in your Google Drive.
+    </div>
+
+    
+  </div>
+</body>
+</html>
